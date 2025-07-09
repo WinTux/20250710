@@ -1,0 +1,15 @@
+/* Uso de directiva @mixin */
+
+@mixin nombre-cualquiera {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+/* Para usar @mixin, se usa la directiva @include */
+
+.control2 {
+    @include nombre-cualquiera;
+    background-color: aqua;
+}

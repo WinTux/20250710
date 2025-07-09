@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre estilos</title>
+    <link rel="stylesheet" href="../css/misestilos.css">
+    <style>
+        h2 {
+            color: tomato;
+            font-size: 24px;
+            text-align: center;
+        }
+        a {
+            background-color: yellow;
+        }
+        body {
+            background-color: #FFEAD8;
+            color: #9B177E;
+        }
+    </style>
+</head>
+<body>
+    <!-- Estilos incrustados -->
+    <p style="color:coral">Este es un párrafo</p>
+    <p style="background-color: cyan;">Este es otro párrafo.</p>
+    <p style="color:greenyellow;background-color: black;">Tercer párrafo.</p>
+
+    <div style="border: 2px solid red; padding: 30px; margin: 40px;">
+        <h1 style="color: blue;">Título dentro de un div</h1>
+        <p style="font-size: 20px;">Este es un párrafo dentro de un div con borde rojo.</p>
+
+    </div>
+
+    <h2>Estilos internos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem architecto amet animi neque autem iusto mollitia voluptatum nisi necessitatibus quis nesciunt earum suscipit dolores odit eveniet veniam, ducimus dolorem delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugiat, totam similique amet eum modi eligendi quidem provident dolorem, nemo aut ipsum libero. Praesentium ratione reiciendis dolore asperiores aliquam quibusdam corporis officiis. Saepe debitis accusamus quia non et sapiente suscipit vero minus, distinctio dolor. Numquam.</p>
+    <h2>Estilos internos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem architecto amet animi neque autem iusto mollitia voluptatum nisi necessitatibus quis nesciunt earum suscipit dolores odit eveniet veniam, ducimus dolorem delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugiat, totam similique amet eum modi eligendi quidem provident dolorem, nemo aut ipsum libero. Praesentium ratione reiciendis dolore asperiores aliquam quibusdam corporis officiis. Saepe debitis accusamus quia non et sapiente suscipit vero minus, distinctio dolor. Numquam.</p>
+    <h2>Estilos internos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem architecto amet animi neque autem iusto mollitia voluptatum nisi necessitatibus quis nesciunt earum suscipit dolores odit eveniet veniam, ducimus dolorem delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugiat, totam similique amet eum modi eligendi quidem provident dolorem, nemo aut ipsum libero. Praesentium ratione reiciendis dolore asperiores aliquam quibusdam corporis officiis. Saepe debitis accusamus quia non et sapiente suscipit vero minus, distinctio dolor. Numquam.</p>
+    <a href="index.html">Volver al inicio</a><br>
+
+    <div>
+        <h2>Estilos externos</h2>
+        <p class="estilo1">Este es un párrafo con estilo externo.</p>
+        <p class="estilo2">Este es otro párrafo con un estilo diferente.</p>
+        <p class="estilo3">Este es un tercer párrafo con un estilo distinto.</p>
+    </div>
+
+    <h3 class="estilo1">Cualquier cosa</h3>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum recusandae delectus cupiditate.</p>
+    <a class="estilo2" href="">Enlace sin funcionar</a>
+
+    <div class="estilo1 estilo2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur dignissimos nobis et minima aspernatur. Voluptate atque dolorum reiciendis quasi eveniet iusto voluptates?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda doloribus qui quod!</p>
+    </div>
+
+    <div class="centrado">
+        <img class="hambster-box" src="../resources/imagenes/hamster.png" alt="Se ve UN HAMSTER" width="200" height="300"><br>
+        <img class="hambster-filter" src="../resources/imagenes/hamster.png" alt="Se ve UN HAMSTER" width="200" height="300">
+    </div>
+    
+    <button id="btnDelete">Clic para borrar system32</button>
+    <button id="btnRaro">Un botón distinto</button>
+
+    <h3>Tablas</h3>
+    <div class="centrado">
+        <table border="1">
+            <tr>
+                <td>ID</td>
+                <td>NOMBRE</td>
+                <td>PRECIO</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Producto B</td>
+                <td>Bs. 15.50</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Producto C</td>
+                <td>Bs. 10.20</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Producto A</td>
+                <td>Bs. 10.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">Total:</td>
+                <td>Bs. 200</td>
+            </tr>
+        </table>
+        <!-- sp -> columnas y filas -->
+    </div>
+    
+</body>
+</html>

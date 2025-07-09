@@ -1,0 +1,14 @@
+@import "parcial3";
+$colorFondo: aqua;
+.control {
+    background-color: $colorFondo;
+    color: black;
+}
+.secundario {
+    background-color: #f2c5e5;
+    color: black;
+}
+
+#control3{
+    @include nombre-cualquiera;
+}

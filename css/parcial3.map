@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "parcial3.css",
+	"sources": [
+		"../sass/parcial3.scss"
+	],
+	"sourcesContent": [
+		"/* Uso de directiva @mixin */\n\n@mixin nombre-cualquiera {\n    color: red;\n    font-size: 20px;\n    font-weight: bold;\n    border: 1px solid blue;\n}\n\n/* Para usar @mixin, se usa la directiva @include */\n\n.control2 {\n    @include nombre-cualquiera;\n    background-color: aqua;\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,6BAA6B;AAS7B,oDAAoD;;AAEpD,AAAA,SAAS,CAAC;EARN,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,cAAc;EAOtB,gBAAgB,EAAE,IAAI;CACzB"
+}

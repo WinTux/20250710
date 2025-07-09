@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../sass/estilo.scss",
+		"../sass/parcial1.scss",
+		"../sass/parcial2.scss",
+		"../sass/parcial3.scss"
+	],
+	"sourcesContent": [
+		"@import \"parcial1\"; // Importando un archivo parcial\n@import \"parcial2\";\n/*\nEste es un comentario en SASS.\n*/\n\n/* Definición de variables */\n$colorDeFondo: #f1f478;\n$colorDeTexto: darkblue;\n$tamanyoFuente: 18px; \n$colorSuave: #92edf0; /* Color suave */\n\n$miFuente: 'Arial', sans-serif; /* Helvetica */\n$miAncho: 630px;\n\n/* Usando las variables */\nbody {\n    background-color: $colorDeFondo;\n    color: $colorDeTexto;\n    font-size: $tamanyoFuente;\n}\n\n#container{\n    width: $miAncho;\n    font-family: $miFuente;\n    background-color: $colorSuave;\n}\n\nh1 {\n    $colorSuave: #f2c5e5 !global; /* Color suave */\n    background-color: $colorSuave;\n}\n\na {\n    color: $colorSuave;\n}\n\n/* Anidamiento */\n\nnav {\n    ul {\n        margin: 0;\n        padding: 0;\n        list-style: none;\n    }\n    li{\n        display: inline-block;\n    }\n    a {\n        display: block;\n        padding: 6px 12px;\n        text-decoration: none;\n        font: {\n            family: Helvetica, sans-serif;\n            size: 21px;\n            weight: bold;\n        }\n        text: {\n            align: center;\n            transform: uppercase;\n            overflow: hidden;\n        }\n    }\n}\n/*\nnav ul {}\nnav li{}\nnav a{}\n*/",
+		"ol, ul, html {\n    margin: 5;\n    padding: 5;\n}",
+		"@import \"parcial3\";\n$colorFondo: aqua;\n.control {\n    background-color: $colorFondo;\n    color: black;\n}\n.secundario {\n    background-color: #f2c5e5;\n    color: black;\n}\n\n#control3{\n    @include nombre-cualquiera;\n}",
+		"/* Uso de directiva @mixin */\n\n@mixin nombre-cualquiera {\n    color: red;\n    font-size: 20px;\n    font-weight: bold;\n    border: 1px solid blue;\n}\n\n/* Para usar @mixin, se usa la directiva @include */\n\n.control2 {\n    @include nombre-cualquiera;\n    background-color: aqua;\n}"
+	],
+	"names": [],
+	"mappings": ";;ACAA,AAAA,EAAE,EAAE,EAAE,EAAE,IAAI,CAAC;EACT,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AEHD,6BAA6B;AAS7B,oDAAoD;;AAEpD,AAAA,SAAS,CAAC;EARN,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,cAAc;EAOtB,gBAAgB,EAAE,IAAI;CACzB;;;ADZD,AAAA,QAAQ,CAAC;EACL,gBAAgB,EAFP,IAAI;EAGb,KAAK,EAAE,KAAK;CACf;;;AACD,AAAA,WAAW,CAAC;EACR,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACf;;;AAED,AAAA,SAAS,CAAA;ECRL,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,cAAc;CDOzB;;AFXD;;EAEE;AAEF,6BAA6B;AAIP,iBAAiB;AAEP,eAAe;AAG/C,0BAA0B;;AAC1B,AAAA,IAAI,CAAC;EACD,gBAAgB,EAVL,OAAO;EAWlB,KAAK,EAVM,QAAQ;EAWnB,SAAS,EAVG,IAAI;CAWnB;;;AAED,AAAA,UAAU,CAAA;EACN,KAAK,EAVC,KAAK;EAWX,WAAW,EAZJ,OAAO,EAAE,UAAU;EAa1B,gBAAgB,EAfP,OAAO;CAgBnB;;;AAED,AAAA,EAAE,CAAC;EAC+B,iBAAiB;EAC/C,gBAAgB,EADH,OAAO;CAEvB;;;AAED,AAAA,CAAC,CAAC;EACE,KAAK,EALQ,OAAO;CAMvB;;AAED,iBAAiB;;AAEjB,AACI,GADD,CACC,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;CACnB;;;AALL,AAMI,GAND,CAMC,EAAE,CAAA;EACE,OAAO,EAAE,YAAY;CACxB;;;AARL,AASI,GATD,CASC,CAAC,CAAC;EACE,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,QAAQ;EACjB,eAAe,EAAE,IAAI;EAEjB,WAAM,EAAE,qBAAqB;EAC7B,SAAI,EAAE,IAAI;EACV,WAAM,EAAE,IAAI;EAGZ,UAAK,EAAE,MAAM;EACb,cAAS,EAAE,SAAS;EACpB,aAAQ,EAAE,MAAM;CAEvB;;AAEL;;;;EAIE"
+}

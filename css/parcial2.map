@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "parcial2.css",
+	"sources": [
+		"../sass/parcial2.scss",
+		"../sass/parcial3.scss"
+	],
+	"sourcesContent": [
+		"@import \"parcial3\";\n$colorFondo: aqua;\n.control {\n    background-color: $colorFondo;\n    color: black;\n}\n.secundario {\n    background-color: #f2c5e5;\n    color: black;\n}\n\n#control3{\n    @include nombre-cualquiera;\n}",
+		"/* Uso de directiva @mixin */\n\n@mixin nombre-cualquiera {\n    color: red;\n    font-size: 20px;\n    font-weight: bold;\n    border: 1px solid blue;\n}\n\n/* Para usar @mixin, se usa la directiva @include */\n\n.control2 {\n    @include nombre-cualquiera;\n    background-color: aqua;\n}"
+	],
+	"names": [],
+	"mappings": ";ACAA,6BAA6B;AAS7B,oDAAoD;;AAEpD,AAAA,SAAS,CAAC;EARN,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,cAAc;EAOtB,gBAAgB,EAAE,IAAI;CACzB;;;ADZD,AAAA,QAAQ,CAAC;EACL,gBAAgB,EAFP,IAAI;EAGb,KAAK,EAAE,KAAK;CACf;;;AACD,AAAA,WAAW,CAAC;EACR,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACf;;;AAED,AAAA,SAAS,CAAA;ECRL,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,cAAc;CDOzB"
+}

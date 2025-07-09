@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* line 1, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial1.scss */
+ol, ul, html {
+  margin: 5;
+  padding: 5;
+}
+
+/* Uso de directiva @mixin */
+/* Para usar @mixin, se usa la directiva @include */
+/* line 12, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial3.scss */
+.control2 {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: aqua;
+}
+
+/* line 3, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial2.scss */
+.control {
+  background-color: aqua;
+  color: black;
+}
+
+/* line 7, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial2.scss */
+.secundario {
+  background-color: #f2c5e5;
+  color: black;
+}
+
+/* line 12, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial2.scss */
+#control3 {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+/*
+Este es un comentario en SASS.
+*/
+/* Definición de variables */
+/* Color suave */
+/* Helvetica */
+/* Usando las variables */
+/* line 17, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/estilo.scss */
+body {
+  background-color: #f1f478;
+  color: darkblue;
+  font-size: 18px;
+}
+
+/* line 23, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/estilo.scss */
+#container {
+  width: 630px;
+  font-family: "Arial", sans-serif;
+  background-color: #92edf0;
+}
+
+/* line 29, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/estilo.scss */
+h1 {
+  /* Color suave */
+  background-color: #f2c5e5;
+}
+
+/* line 34, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/estilo.scss */
+a {
+  color: #f2c5e5;
+}
+
+/* Anidamiento */
+/* line 41, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/estilo.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 46, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/estilo.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 49, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/estilo.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-overflow: hidden;
+}
+
+/*
+nav ul {}
+nav li{}
+nav a{}
+*/
+
+/*# sourceMappingURL=estilo.css.map */

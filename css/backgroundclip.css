@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#ejemplo1 {
+    border: 15px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: border-box;
+}
+#ejemplo2 {
+    border: 15px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: padding-box;
+}
+#ejemplo3 {
+    border: 15px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: content-box;
+}
