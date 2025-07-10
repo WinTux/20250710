@@ -1,7 +1,5 @@
-@charset "UTF-8";
 /* Uso de directiva @mixin */
 /* Para usar @mixin, se usa la directiva @include */
-/* line 12, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial3.scss */
 .control2 {
   color: red;
   font-size: 20px;
@@ -10,24 +8,19 @@
   background-color: aqua;
 }
 
-/* line 3, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial2.scss */
 .control {
   background-color: aqua;
   color: black;
 }
 
-/* line 7, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial2.scss */
 .secundario {
   background-color: #f2c5e5;
   color: black;
 }
 
-/* line 12, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial2.scss */
 #control3 {
   color: red;
   font-size: 20px;
   font-weight: bold;
   border: 1px solid blue;
 }
-
-/*# sourceMappingURL=parcial2.css.map */

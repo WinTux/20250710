@@ -1,7 +1,5 @@
-@charset "UTF-8";
 /* Uso de directiva @mixin */
 /* Para usar @mixin, se usa la directiva @include */
-/* line 12, ../../../../../Users/rusokverse/Documents/Proyectos/DiseñoWeb/Ejemplos1/sass/parcial3.scss */
 .control2 {
   color: red;
   font-size: 20px;
@@ -9,5 +7,3 @@
   border: 1px solid blue;
   background-color: aqua;
 }
-
-/*# sourceMappingURL=parcial3.css.map */
